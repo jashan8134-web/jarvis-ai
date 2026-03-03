@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    color: #00d2ff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.arc-reactor {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #00d2ff;
+    box-shadow: 0 0 20px #00d2ff, inset 0 0 20px #00d2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.arc-reactor:active { transform: scale(0.9); }
+
+.core {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #fff, 0 0 50px #00d2ff;
+}
+
+#status { text-align: center; letter-spacing: 5px; margin-top: 20px; }
